@@ -1,0 +1,76 @@
+.messageBoxMikassa {
+    background: #F3F3F3;
+    border-radius: 15px;
+    padding: 1px 8px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+  }
+  
+  .messageTextMikassa {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1.1em;
+    word-wrap: break-word;
+  }
+  
+  .messageTextMikassa img {
+    vertical-align: middle;
+  }
+  
+  .messageContainerMikassa {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+  }
+  
+  .sentTextMikassa {
+    display: flex;
+    align-items: center;
+    color: #f1eaea;
+    letter-spacing: 0.3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .pl-10 {
+    padding-left: 10px;
+  }
+  
+  .pr-10 {
+    padding-right: 10px;
+  }
+  
+  .justifyStart {
+    justify-content: flex-start;
+  }
+  
+  .justifyEnd {
+    justify-content: flex-end;
+  }
+  
+  .colorWhiteMikassa {
+    color: white;
+  }
+  
+  .colorDarkMikassa {
+    color: #353535d3;
+  }
+  
+  .backgroundSalmonMikassa{
+    background: linear-gradient(to bottom, #62c1c3,#46aaac);
+
+  }
+  
+  .backgroundLightMikassa {
+    background: linear-gradient(to bottom, #d0eaeb, #badddf);
+  
+  }
+  
+  .timeMikassa{
+    font-size: 9pt;
+    float: right;
+    color: rgba(43, 29, 19, 0.815);
+    margin: 4px;
+  }

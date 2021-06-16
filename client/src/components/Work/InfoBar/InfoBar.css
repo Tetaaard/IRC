@@ -1,0 +1,37 @@
+.infoBarWork {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2f888c;
+    background: linear-gradient(to bottom, #2f888c ,#1e575a);
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .leftInnerContainerWork {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+  }
+  .leftInnerContainerWork h3{
+    color: white;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+  }
+  .rightInnerContainerWork {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 2%;
+    width:10px;
+  }
+
+  
+  .onlineIconWork {
+    margin-right: 1%;
+    width: 10px;
+  }
+  

@@ -1,0 +1,34 @@
+.formWork {
+    display: flex;
+    padding: 1%;
+    background: rgb(255,236,198);
+    background: linear-gradient(90deg, #fed96a3b 0%, #fed96a54 50%, #fed96a86 100%);
+  }
+  
+  .inputWork {
+    border: 1px solid lightgrey;
+    padding: 1.6%;
+    width: 82%;
+    margin-left: 1%;
+    font-size: 14pt;
+    font-weight: 200;
+    background-color: rgba(253, 253, 253, 0.719);
+    border-radius: 14px;
+    color: rgb(78, 78, 78);
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  .sendButtonWork {
+    color: #fff ; 
+    border: 1px solid #feda6a;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #feda6a,#f8cd4b );
+    display: inline-block;
+    border-radius: 14px;
+    width: 15%;
+    margin-left: 1%;
+  }

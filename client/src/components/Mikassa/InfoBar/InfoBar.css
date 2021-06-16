@@ -1,0 +1,38 @@
+.infoBarMikassa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3f8c2f;
+    background: linear-gradient(to bottom, #3f8c2f ,#2a5a1e);
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 100%;
+    
+  }
+  
+  .leftInnerContainerMikassa {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+  }
+  .leftInnerContainerMikassa h3{
+    color: white;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+  }
+  .rightInnerContainerMikassa {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 2%;
+    width:10px;
+  }
+
+  
+  .onlineIconMikassa {
+    margin-right: 1%;
+    width: 10px;
+  }
+  

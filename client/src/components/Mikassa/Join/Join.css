@@ -1,0 +1,85 @@
+html, body {
+  letter-spacing: 0.3px;
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .homePictureMikassa{
+    height:450px;
+  }
+  .joinOuterContainerMikassa {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  .joinInnerContainerMikassa {
+    width: 40%;
+    border-radius:5px;
+
+    padding:2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .joinInputMikassa {
+    border-radius: 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius:5px;
+    border: 1px solid #acb2b3;
+    background: linear-gradient(to bottom, #ffffff,#eeedeb );
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .headingMikassa {
+    color: rgb(5, 5, 5);
+    font-size: 2.5em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .buttonMikassa {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: linear-gradient(to bottom, #0da308,#045004 );
+      padding: 15px;
+      border-radius: 12px;
+      display: inline-block;
+      border: none;
+      width: 50%;
+      box-shadow: inset 0px 0px 20px 10px rgba(233, 191, 3, 0.164);
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainerMikassa {
+      height: 100%;
+    }
+  
+    .joinInnerContainerMikassa {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }

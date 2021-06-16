@@ -1,0 +1,49 @@
+.Contain{
+    background: whitesmoke;
+    margin:0;
+    padding:0;
+
+}
+.HomeOuterContainer{
+    margin:0px auto;
+    width:90%;
+    background: whitesmoke;
+}
+.head-title{
+    text-align: center;
+    font-size:50px;
+}
+.go {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #111110,#363635 );
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 50%;
+    box-shadow: inset 0px 0px 20px 10px rgba(233, 191, 3, 0.164);
+    margin-left:25%;
+}
+
+.wrapper {
+    margin:4.5rem 0 0 8.5rem;
+    display: inline-grid;
+    grid-template-columns: repeat(3, [col-start] 1fr);
+    grid-gap: 10px;
+    width:80%
+  }
+  .wrapper img{
+    margin-left:4%;
+    border-radius: 1rem;
+   width:90%;
+   
+  }
+  .choose-room{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 12px rgba(85, 85, 85, 0.226);
+    border-radius: 1rem;
+ 
+
+}

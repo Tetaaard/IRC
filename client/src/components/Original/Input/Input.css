@@ -1,0 +1,35 @@
+.formOriginal {
+    display: flex;
+    padding: 1%;
+    background: rgb(255,236,198);
+    background: linear-gradient(90deg, rgba(255,236,198,0.6909138655462185) 0%, rgba(233,196,147,1) 50%, rgba(255,225,184,0.7665441176470589) 100%);
+  }
+  
+  .inputOriginal {
+    border: 3px double rgb(228, 164, 127);
+    padding: 1.6%;
+    width: 82%;
+    margin-left: 1%;
+    font-size: 14pt;
+    font-weight: 200;
+    background-color: rgba(253, 253, 253, 0.719);
+    border-radius: 14px;
+    color: rgb(78, 78, 78);
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  .sendButtonOriginal {
+    color: #fff ; 
+    border: 1px solid rgb(228, 164, 127);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(213,113,73);
+    background: linear-gradient(90deg, rgba(213,113,73,1) 0%, rgba(240,138,93,0.9514180672268907) 48%, rgba(232,159,113,1) 100%); 
+    display: inline-block;
+    border-radius: 14px;
+    width: 15%;
+    margin-left: 1%;
+  }

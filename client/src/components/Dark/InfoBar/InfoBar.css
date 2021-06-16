@@ -1,0 +1,37 @@
+.infoBarDark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d3436;
+    background: linear-gradient(to bottom, #050505, #050505 );
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .leftInnerContainerDark {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+  }
+  .leftInnerContainerDark h3{
+    color: white;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+  }
+  .rightInnerContainerDark {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 2%;
+    width:10px;
+  }
+
+  
+  .onlineIconDark {
+    margin-right: 1%;
+    width: 10px;
+  }
+  

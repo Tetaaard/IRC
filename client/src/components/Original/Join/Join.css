@@ -1,0 +1,101 @@
+html, body {
+  font-family: Helvetica;
+  letter-spacing: 0.3px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #root {
+    height: 100vh;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .joinOuterContainerOriginal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background: rgb(249,239,234);
+    background: linear-gradient(90deg, rgba(249,239,234,0.8551006838905775) 0%, rgba(250,235,218,0.9280490121580547) 12%, rgba(244,239,227,0.9098119300911854) 30%, rgba(255,242,222,0.8976538753799392) 49%, rgba(255,234,210,0.7061645136778115) 73%, rgba(250,238,229,0.8915748480243161) 100%);
+  }
+  
+  .joinInnerContainerOriginal {
+    width: 70%;
+    background: rgba( 250, 190, 127, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba(95, 67, 16, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(219, 165, 82, 0.18);
+    padding: 5%;
+  }
+  
+  .joinInputOriginal {
+    border-radius: 13px;
+    padding: 15px 20px;
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 14pt;
+    color: rgba(70, 41, 4, 0.664);
+    background-color: rgba(233, 214, 197, 0.603);
+  }
+
+  .inputsOriginal {
+    margin-top: 10%;
+    padding: 2%;
+  }
+  
+  .title{
+    color: rgba(5, 5, 5, 0.644);
+    font-size: 29pt;
+    transform: translate(0, 100%) rotate(0.6deg);
+    animation: jump 2s ease-in-out infinite;
+  }
+  @keyframes jump {
+    33% {
+      text-shadow: 0 15px #da783cd0, 0 25px #da8c5eec;
+    }
+    53% {
+      transform: translate(0, 0) rotate(-1deg);
+      text-shadow: 0 0px #462d19dc, 0 0px #e0a14fdc;
+    }
+    71% {
+      text-shadow: 0 -10px #d18e62ce, 0 -18px #d17e12;
+    }
+  }
+  
+  .buttonOriginal {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #e89f71;
+      box-shadow: 0 4px 15px 0 rgba(82, 43, 4, 0.733);
+      padding: 20px;
+      border-radius: 35px;
+      display: inline-block;
+      border: none;
+      width: 30%;
+      transition: 1s linear ; 
+  }
+  .buttonOriginal:hover{
+    color: #fff ;
+    background: #d67437f6;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainerOriginal {
+      height: 100%;
+    }
+  
+    .joinInnerContainerOriginal {
+      width: 90%;
+    }
+  
+  }
+  
+  .buttonOriginal:focus {
+    outline: 0;
+  }

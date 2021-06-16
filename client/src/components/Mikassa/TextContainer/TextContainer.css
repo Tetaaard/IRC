@@ -1,0 +1,109 @@
+/* room  */
+.textContainerMikassa {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  border: 1px solid #682a20;
+  /* background-color:	#ffe1d1; */
+  background: #ffffff3b;;
+  backdrop-filter: blur( 4px );
+  border-radius: 6px;
+  height: 90%;
+  width:25%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
+  letter-spacing: 0.3px;
+  box-shadow: 1px 1px 50px rgba(168, 166, 166, 0.185);
+}
+.barMikassa{
+  color:#fff;
+  background: linear-gradient(to bottom, #682a20, #4e1d15);
+  border-radius: 5px 5px 0 0 ;
+  height: 60px;
+  width: 100%;
+  font-size: 35pt;
+  padding-top: 1.5%;
+  text-align:center;
+  font-weight:bold;
+}
+
+.textContainerMikassa h3 {
+  text-align: center;
+  font-weight: 200;
+  font-size:17pt;
+  /* background-color:#ffc7a4d5; */
+  height: 43%;
+  padding-top: 7%;
+  /* border-top: 2px solid  #e9c493;
+  border-bottom: 2px solid #e9c493; */
+  
+  background: #eeedeb5e ;
+}
+.theRoomMikassa{
+  font-weight: 500;
+  font-size: 16pt;
+  text-align: center;
+  padding: 2px;
+  color: #000
+}
+.roomNameMikassa{
+  text-transform:uppercase;
+}
+/*  people  */
+.activeContainerMikassa {
+  border-radius:0 0  6px 6px;
+ 
+  background:#eeedeb3a;
+  height: 67%;
+  padding: 2%;
+  /* background-color:#ffd2b685; */
+  /* background-color:#f5d3bd3b; */
+}
+.peopleMikassa{
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+.textContainerMikassa h2 {
+  text-align: center;
+  font-weight: 200;
+  font-size:17pt;
+}
+.activeItemMikassa {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14pt;
+  color: #682a20;
+  padding-left: 10%;
+  width:200px;
+}
+.IconMikassa{
+padding:8px;
+}
+.userNameMikassa{
+  color:#000;
+}
+.userIconMikassa{
+  margin-right: 8px;
+}
+.activeContainerMikassa img {
+  width: 7px;
+  margin: 10px;
+}
+.imgMikassa{
+  color:white;
+}
+.textContainerMikassa h1 {
+  font-weight: 200;
+  font-size:24pt;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainerMikassa {
+    display: none;
+  }
+}
